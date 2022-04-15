@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap link CSS -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"
+  />
+
+     <!-- Font Awesome link CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+     crossorigin="anonymous"
+   />
+      <!-- Local link CSS -->
+    <link rel="stylesheet"  href="./cssDOM.css" >
+    <title>expl1DOM</title>
+
+</head>
+<body>  
+
+ <header >
+  <!--
+  <button ><i  class='fas fa-shopping-cart' style='font-size:2rem;'></i></button>
+  <span class="total-qty">0</span>
+  -->
+ <div>
+  <h1>Total Price :</h1>
+  <span class='total-price'> 0 </span>
+  <span>$</span><br>
+  
+</div>
+ </header>
+ 
+<section>
+
+<!--card1-->
+<div class='card'>
+  <div class='top-bar'>
+    <i class='fab fa-apple'></i>
+    <em class="stocks">In Stock</em>
+  </div>
+  <div class='img-container'>
+    <img class='product-img' src='./og__ch3csr9zmviq_overview.png' alt='' />
+    
+  </div>
+  <div class='details'>
+    <div class='name-fav'>
+      <strong class='product-name'>Airpods Pro</strong>
+      <button onclick='this.classList.toggle("fav")' class='heart'><i class='fas fa-heart'></i></button>
+      <button onclick=''><i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div class='wrapper'>
+      <h5>Wireless Noise Cancelling Earphones</h5>
+      <p>AirPods Pro have been designed to deliver active
+         Noise Cancellation for immersive sound. 
+         Transparancy mode so much can hear your surroundings
+      </p>
+    </div>
+    <div class='purchase'>
+      <span class="unit-price"> 24900</span>   
+        <div>
+          <button class='btn-qty plus-btn' onclick=""><i class='fas fa-chevron-left'></i></button>
+          <span class="qty">0</span>
+          <button class='btn-qty minus-btn' onclick=""><i class='fas fa-chevron-right'></i></button>
+        </div>   
+      
+      
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!--card2-->
+<div class='card'>
+  <div class='top-bar'>
+    <i class='fab fa-apple'></i>
+    <em class="stocks">In Stock</em>
+  </div>
+  <div class='img-container'>
+    <img class='product-img' src="./apple-watch-pcq.png" alt='' />
+  </div>
+  <div class='details'>
+    <div class='name-fav'>
+      <strong class='product-name'>Apple Watch</strong>
+      <button onclick='this.classList.toggle("fav")' class='heart'><i class='fas fa-heart'></i></button>
+      <button onclick='' ><i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div class='wrapper'>
+      <h5>You’ve never seen a watch like this</h5>
+      <p>The most advanced Apple Watch yet, 
+        featuring the Always-On Retina display,
+         the ECG app, international emergency calling,
+          fall detection and a built‑in compass.
+      </p>
+    </div>
+    <div class='purchase'>
+      <span class='unit-price'> 40900</span>
+      <span class='btn-add'>
+        <span class='btn-add'>
+                    
+          <div>
+            <button class='btn-qty plus-btn' onclick=""><i class='fas fa-chevron-left'></i></button>
+            <p class='qty'>0</p>
+            <button class='btn-qty minus-btn' onclick=""><i class='fas fa-chevron-right'></i></button>
+          </div>  
+        </span>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<!--card3-->
+<div class='card'>
+  <div class='top-bar'>
+    <i class='fab fa-apple'></i>
+    <em class="stocks">In Stock</em>
+  </div>
+  <div class='img-container'>
+    <img class='product-img' src="./macbook-pro-13-og-202011.jpg" alt='' />
+   
+  </div>
+  <div class='details'>
+    <div class='name-fav'>
+      <strong class='product-name'> Macbook Pro </strong>
+      <button onclick='this.classList.toggle("fav")' class='heart'><i class='fas fa-heart'></i></button>
+      <button onclick='' ><i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div class='wrapper'>
+      <h5>The best for the brightest</h5>
+      <p> Designed for those who defy limits and change the world,
+         the new MacBook Pro is by far the most powerful notebook we’ve ever made.
+          it’s the ultimate pro notebook for the ultimate user.
+      </p>
+    </div>
+    <div class='purchase'>
+      <span class='unit-price'> 199900</span>
+      <span class='btn-add'>
+
+        <div>
+          <button class='btn-qty plus-btn' onclick=""><i class='fas fa-chevron-left'></i></button>
+          <p class='qty'>0</p>
+          <button class='btn-qty minus-btn' onclick=""><i class='fas fa-chevron-right'></i></button>
+        </div>   
+      </span>
+    </div>
+  </div>
+</div>
+
+
+<!--card4-->
+<div class='card'>
+  <div class='top-bar'>
+    <i class='fab fa-apple'></i>
+    <em class="stocks">In Stock</em>
+  </div>
+  <div class='img-container'>
+    <img class='product-img' src="./iphone-11-pro-2019-frandroid.png" />
+  </div>
+  <div class='details'>
+    <div class='name-fav'>
+      <strong class='product-name'>iPhone 11 pro</strong>
+      <button onclick='this.classList.toggle("fav")' class='heart'><i class='fas fa-heart'></i></button>
+      <button onclick='' ><i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div class='wrapper'>
+      <h5>Pro cameras. Pro display. Pro performance</h5>
+      <p> A mind‑blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. 
+      
+    </p>
+    </div>
+    <div class='purchase'>
+      <span class='unit-price'>106600</span>
+      <span class='btn-add'>
+
+        <div>
+          <button class='btn-qty plus-btn' onclick=""><i class='fas fa-chevron-left'></i></button>
+          <p class='qty'>0</p>
+          <button class='btn-qty minus-btn' onclick=""><i class='fas fa-chevron-right'></i></button>
+        </div>    
+      </span>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</section>
+
+<script src="./javascript.js">
+   
+</script>
+</body>
+</html>
